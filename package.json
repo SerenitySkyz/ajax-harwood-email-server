@@ -1,0 +1,13 @@
+{
+  "name": "ajax-harwood-retell-email-server",
+  "version": "1.0.0",
+  "description": "Receives Retell AI webhooks and sends email notifications to Ajax Harwood Clinic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  }
+}
